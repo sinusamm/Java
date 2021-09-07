@@ -30,7 +30,7 @@ public class Maine3 {
 //            System.out.println("Second number is secret!");
 //            result = nr1 + nr2;
 //            System.out.print(" Summa is "+result);
-
+//
             Scanner number2= new Scanner(System.in);
             System.out.println("This is a game");
                     //system out- eto mi vivodim v terminal
@@ -40,7 +40,11 @@ public class Maine3 {
             num2 = number2.nextInt();
             num1 =78;
             result = num1 + num2;
+            //if(num2<100){
+            //system.out.print("Second number must be bigger than 10");
+            //domash.zadanie gde ti ne vipolnila,polzovatel ne dolzhen vesti chislo ne menshe 10
             if(result<100  || 100>result){
+                    //odno i tozhe
                     System.out.print("You won the game!");
             }else {
                     System.out.print( "Game over!, because result was bigger then 100!");
