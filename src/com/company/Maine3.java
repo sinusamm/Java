@@ -24,7 +24,8 @@ public class Maine3 {
 //            //nr1
 //            float nr1, nr2, result;
 //            nr1 = number.nextFloat();
-//            // to chto vpis polz      number.nextFloat()
+//            // to chto polz mojet vvesti samost+scanner.....     number.nextFloat()
+            //Scanner number2= new Scanner(System.in); ---i bez etoi comandi toje polz.ne mojet sam vvodit chislo
 ////            System.out.print("Please tell me this number" +nr1);
 //            nr2 = 10.5F;
 //            System.out.println("Second number is secret!");
