@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MainArray7 {
@@ -21,12 +22,15 @@ public class MainArray7 {
         //vvedi sam dlinu massiva
         length_of_array= to_chto_vvodit_polzovatel.nextInt();
         //length_of_array----to chto vvodit polzovatel
+        // dlina massiva
+        // i poryad nomer
         nazvanie_massiva= new int[length_of_array];
         for(int i=0; i<length_of_array; i++){
             System.out.print("Enter nazvanie_massiva["+ i + "] = ");
             nazvanie_massiva [i] = to_chto_vvodit_polzovatel.nextInt();
             //chtobi opyat polzovatel mog znachenie pod poryadkovim nomerom
         }
+        System.out.print(Arrays.toString(nazvanie_massiva));
 
 
   }
