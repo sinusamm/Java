@@ -11,8 +11,8 @@ public class While {
             //System.out.print("hello!");---vivod v konsol
             j++;
             if(j>5){
-                break;
-                // mojno break zamenit isTrue=false;
+                isTrue=false;
+                // mojno break zamenit breake
                 // tolko v while tsikle stavitsya break
                 //budet vivoditsya 6 raz tak kak j=o
 
