@@ -14,19 +14,19 @@ public class random {
 //        System.out.println(num1);
         // Random rand= new Random();  +++  num1 = rand.nextInt();=======eti 2 kommandi obyaz
 
-        // 2-oe zadanie
-           // int num1;
-           // int max=25
-           //       for(int i=0; i<5; i++) {
-           //        num1 = rand.nextInt(max); max-eto granitsa
-           //        System.out.println(num1);
-           // v etom sluchae stavim granitsu do 25; 0-25
+//         2-oe zadanie
+//            int num1;
+//            int max=25
+//                  for(int i=0; i<5; i++) {
+//                   num1 = rand.nextInt(max); max-eto granitsa
+//                   System.out.println(num1);
+//            v etom sluchae stavim granitsu do 25; 0-25
 
         // Vtoroi sposob
-           int num1 =0;
-           num1=(int)Math.floor(Math.random()*100);
-           //randomim ot 0 do 100
-           System.out.print(num1);
+//           int num1 =0;
+//           num1=(int)Math.floor(Math.random()*100);
+//           //randomim ot 0 do 100
+//           System.out.print(num1);
     }
         }
 
