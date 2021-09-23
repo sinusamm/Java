@@ -25,6 +25,12 @@ public class random {
         // Vtoroi sposob
 //           int num1 =0;
 //           num1=(int)Math.floor(Math.random()*100);
+        //   num1=(int)Math.floor(Math.random()*100);---dlya vtorogo sposoba ego dostatochno
+        //Math.floor(Math.random()---------oni idut vmeste
+        //*100);---------eto granitsa
+        //=(int)----vsegda pishem s chem rabotaet,,,,,eto mojet bit i float i t.d
+        //Math.floor-??????????????
+        // Math.round-eto okruglenie
 //           //randomim ot 0 do 100
 //           System.out.print(num1);
     }

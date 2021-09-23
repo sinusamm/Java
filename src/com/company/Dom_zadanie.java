@@ -28,6 +28,7 @@ public class Dom_zadanie {
                  System.out.print( "Game over!, because result was bigger then 100!,because result was"+result);
     }
             break;
+
         }
     }
     }
