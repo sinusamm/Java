@@ -8,6 +8,7 @@ public class Praktika3 {
         boolean isTrue=true;
         //answer= result
         char operator;
+        // (+, -,*,  /):");---pishem dlya edinichnogo elementa..odin iz tipov dannih
         Scanner reader = new Scanner(System.in);
         // Scanner reader-----prosto nazvanie scannera
         System.out.print("Enter first number: ");
@@ -39,15 +40,20 @@ public class Praktika3 {
                 switch (operator) {
                     case '+':answer= num1+num2;
                         System.out.println(answer);
+                        isTrue=false;
+                        // dlya vihoda iz odnogo keisa
                         break;
                     case '-':answer= num1-num2;
                         System.out.println(answer);
+                        isTrue=false;
                         break;
                     case '*':answer= num1*num2;
                         System.out.println(answer);
+                        isTrue=false;
                         break;
                     case '/':answer= num1/num2;
                         System.out.println(answer);
+                        isTrue=false;
                         break;
             }
             }
