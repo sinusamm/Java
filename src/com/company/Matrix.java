@@ -25,7 +25,14 @@ public class Matrix {
         for( int i=0; i<3; i++){
             int res1=matrix3[i][0]* matrix4[0][0]+matrix3[i][1]*matrix4[1][0]+matrix3[i][2]*matrix4[2][0];
             //1*10+2*13+3*16
-            System.out.println(res1+ " ");
+            int res2=matrix3[i][0]* matrix4[0][1]+matrix3[i][1]*matrix4[1][1]+matrix3[i][2]*matrix4[2][1];
+            //1*11+2*14+3*17
+            int res3=matrix3[i][0]* matrix4[0][2]+matrix3[i][1]*matrix4[1][2]+matrix3[i][2]*matrix4[2][2];
+            //1*12+2*15+3*18
+            System.out.print(res1 + "\t");
+            System.out.print(res2 + "\t");
+            System.out.print(res3);
+            System.out.println();
         }
     }
 }
