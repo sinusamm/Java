@@ -12,6 +12,9 @@ public class count {
 //            someString.length-----opred-dlinu massiva ili stringa
             if(someString.charAt(i)== someChar){
                 count++;
+//                System.out.print(count);-----libo tak ili kak nije
+            }else{
+                System.out.print("Hello");
             }
         }
         System.out.print(count);
