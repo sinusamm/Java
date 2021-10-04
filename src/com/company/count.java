@@ -1,6 +1,7 @@
 package com.company;
 
 public class count {
+//    count---podchet skolko raz
     public static void main(String[] args) {
         String someString="elephant";
 //       String --- ""---pishem v kovichkah
