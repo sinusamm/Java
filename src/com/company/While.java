@@ -12,7 +12,7 @@ public class While {
             j++;
             if(j>5){
                 isTrue=false;
-                // mojno break zamenit breake
+                // mojno break zamenit    isTrue=false;
                 // tolko v while tsikle stavitsya break
                 //budet vivoditsya 6 raz tak kak j=o
 
