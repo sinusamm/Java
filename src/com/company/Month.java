@@ -2,7 +2,7 @@ package com.company;
 import java.util.Scanner;
 public class Month {
     public static void main(String[] args) {
-       String [] months= {"January", "February", "March","April", "May", "June", "July", "August", "September", "October", "November", "December"};
+       String [] months= {"January", "February", "March","April", "May", "June", "July", "August","September", "October", "November", "December"} ;
         Scanner userInput=new Scanner(System.in);
 //                userInput=to_chto_vvel_polzovatel
         System.out.println("Choose the number of month from 1 to 12: ");
