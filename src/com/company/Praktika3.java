@@ -2,7 +2,8 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Praktika3 {
+public class
+Praktika3 {
     public static void main(String[] args) {
         int num1, num2, answer;
         boolean isTrue=true;

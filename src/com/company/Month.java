@@ -8,6 +8,7 @@ public class Month {
         System.out.println("Choose the number of month from 1 to 12: ");
 //    : ");------daet vvesti polzov.samost
         int chosenMonth = userInput.nextInt();
+        //   int----nextInt();
         if(chosenMonth>12){
             System.out.print("Enter the number of month from 1 to 12 next time");
         }else if(chosenMonth<1){
