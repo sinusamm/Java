@@ -7,6 +7,7 @@ public class Functions2 {
 //    prostoe chislo eto kogda chislo del-samu na sebya
     public static void main(String[] args) {
         int length =3;
+//        1000 na samom dele, chtobi besk.ne srabatival stavim tolko 3
         int[] prostqe = new int[length];
         int n = 0;
         for (int i = 2; n < prostqe.length; i++) {
@@ -21,8 +22,10 @@ public class Functions2 {
             if(isTrue){
                 prostqe[n]=i;
                 n++;
+//                chtobi zapisat vnutr massiva deistv.prostoe chislo
             }
         }
         System.out.print(Arrays.toString(prostqe));
+//        [2,3,5]
     }
 }

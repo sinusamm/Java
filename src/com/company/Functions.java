@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class Functions {
 //    funktsii oni je i set metodi
+
+
 //    1-oe zadanie
 //public static void main(String[] args) {
 //    main-eto klass
@@ -24,7 +26,7 @@ public class Functions {
 //}
 //    }
 
-// primer-2  vivod prostix chisel
+// primer-2  vivod prostix chisel s pomoshju temi funktsi
     public static void main(String[] args) {
         int length = 1000;
         int[] prostqe = new int[length];
@@ -50,7 +52,7 @@ public class Functions {
                 return false;
             }
     }
-//       vivelis chisla kotorie podelilis na samu sebya
+//       vivelis chisla kotorie podelilis na samu sebya no tolko ne na dr.chislo...poluch--tolko tseloe chislo
         return true;
      }
 }
