@@ -36,7 +36,7 @@ public class Function_zadanie {
         }
         System.out.print(Arrays.toString(kvadrat_10));
 }
-    public static boolean proverka_prostogo (int n){
+        public static boolean proverka_prostogo (int n){
         if(n<2){
             return false;
         }
