@@ -34,7 +34,12 @@ public class Function_zadanie {
                 m++;
             }
         }
-        System.out.print(Arrays.toString(kvadrat_10));
+        System.out.println(Arrays.toString(kvadrat_10));
+        int sum = 0;
+        for (int i = 0; i < kvadrat_10.length; i++) {
+            sum = sum +kvadrat_10[i];
+        }
+        System.out.println(sum);
 }
         public static boolean proverka_prostogo (int n){
         if(n<2){

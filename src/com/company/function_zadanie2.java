@@ -27,6 +27,7 @@ public class function_zadanie2 {
             }
         }
         System.out.print(Arrays.toString(prostqe));
+
     }
 
     public static boolean proverka_prostogo(int n) {
